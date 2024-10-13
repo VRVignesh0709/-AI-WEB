@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Always include this line of code -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="general.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="quries.css" />
+  <title>Artificial Intelligence</title>
+</head>
+
+<body>
+  <main>
+    <section class="header-container">
+      <header>
+        <div class="header">
+          <img src="" alt="AI logo" class="ai-logo" />
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <!-- <li><a class="main-nav-link" href="#">section</a></li> -->
+              <!-- <li><a class="main-nav-link" href="#">section</a></li> -->
+              <!-- <li><a class="main-nav-link" href="#">section</a></li> -->
+              <!-- <li><a class="main-nav-link" href="#">section</a></li> -->
+              <!--href="../AI WEB/login.html."-->
+              <li class="show-modal"><button class="btn-log btn "> <ion-icon class="icon icon-log"
+                    name="person-circle-outline"></ion-icon>Login</button></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Artificial <br />Intelligence</h1>
+            <p class="hero-description">
+              Artificial Intelligence (AI) is a advancing field that focuses
+              on creating systems and machines. These tasks include learning,
+              reasoning, problem-solving and understanding. AI systems are
+              designed to analyze, recogmize pattens, and
+              make decisions.
+            </p>
+            <div class="hero-buttons">
+              <p class="social-icons">
+                <a href="#"><ion-icon class="social-icon" name="logo-whatsapp"></ion-icon></a>
+                <a href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+              </p>
+              <p> <a href="#learn-more" class="lm">
+                  <button class="btn btn-hero">Learn more<ion-icon class="icon icon-hero"
+                      name="arrow-down-circle"></ion-icon>
+                  </button></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- LOG IN FORM -->
+    <section class="modal hidden">
+      <div class="overlay">
+        <button class="close-modal">&times;</button>
+        <div class="content">
+          <div id="form">
+            <form class="login-form">
+              <h2 class="h-login">Login</h2>
+              <label class="label">E-Mail</label>
+              <input class="input" type="email" placeholder="Enter your E-Mail" required />
+              <label class="label">Password</label>
+              <input class="input" type="password" placeholder="password" required />
+              <p><a class="forgot" href="#">Forgot password</a></p>
+              <div class="btnl">
+                <button class=" login">Log in</button>
+                <span class="or">---------or--------</span>
+                <button class=" signin">Sign up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- END -->
+
+    </section>
+    <section class="section-features" id="learn-more">
+      <div class="container">
+        <span class="subheading">Features</span>
+        <h2 class="heading-secondary">Powerful Features</h2>
+      </div>
+      <div class="container grid--3--col">
+        <div class="features">
+          <div class="feature-content">
+            <span class="heading-feature">Machine Learning</span>
+            <p class="feature-description">
+              AI systems can learn from data and improve their performance over time without explicit programing skills
+              and languages.
+            </p>
+          </div>
+          <div class="feature-content">
+            <span class="heading-feature">Computer vision</span>
+            <p class="feature-description">
+              Enables AI to interpret the visual information from images or videos, facillitating tasks like image
+              analysis and scene.
+            </p>
+          </div>
+          <div class="feature-content">
+            <span class="heading-feature">Speech Recognition</span>
+            <p class="feature-description">
+              AI systems can transcribe spoken language into text, enabling voice commands and interactions with devices
+              communication between humans and machines.
+            </p>
+          </div>
+        </div>
+        <div class="features-img">
+          <img class="feature-img" src="features-img.jpg" alt="ai-feature-img" />
+        </div>
+        <div class="features">
+          <div class="feature-content">
+            <span class="heading-feature">Robotics</span>
+            <p class="feature-description">
+              Integrating AI with robotics to enables machines to perform the physical tasks autonomously, such as
+              assembly line to operations, navigation and objects.
+            </p>
+          </div>
+          <div class="feature-content">
+            <span class="heading-feature">Decision Making</span>
+            <p class="feature-description">
+              AI systems can make decisions or take actions based in analysis of data and predefined rules, often in
+              complex and dynamic environments.
+            </p>
+          </div>
+          <div class="feature-content">
+            <span class="heading-feature">Predictive Analytics</span>
+            <p class="feature-description">
+              AI can analyze data to identify patterns and make perdictions about future outcomes, aiding in
+              decision-making and planning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-industry" id="works-with">
+      <div class=container>
+        <span class="subheading">Works with</span>
+        <h2 class="heading-secondary">AI works different types of Industries</h2>
+      </div>
+      <div class="container grid--6--col">
+        <div class="industry">
+          <div class="industry-img education">
+            <a href="#">
+              <img src="education1.jpg" alt="Education AI" />
+            </a>
+          </div>
+          <div class="industry-content">
+            <span class="industry-no">01</span>
+            <h4 class="heading-industry">Education</h4>
+          </div>
+          <div>
+            <ul class="industry-description">
+              <li id="sm-icon"><ion-icon class="icon-industry" name="sparkles"></ion-icon> AI is making significant
+                strides
+                in education.</li>
+              <li id="sm-icon"><ion-icon class="icon-industry" name="cog-outline"></ion-icon> Offering personalized
+                learning and
+                provide experiences.</li>
+              <li id="sm-icon"><ion-icon class="icon-industry" name="time-outline"></ion-icon> 24/7 support,
+                enhancing the overall
+                educational help.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="industry">
+          <div class="industry-img">
+            <a href="#">
+              <img src="manufacturing.jpg" alt="Manufacturing AI">
+            </a>
+          </div>
+          <div class="industry-content">
+            <span class="industry-no">02</span>
+            <p class="heading-industry">Manufacturing</p>
+          </div>
+          <div>
+            <ul class="industry-description">
+              <li><ion-icon class="icon-industry" name="sparkles"></ion-icon> AI is revolutionizing
+                operations by optimizing production processes.</li>
+              <li><ion-icon class="icon-industry" name="timer-outline"></ion-icon> Predicting maintenance needs &
+                improving product quality.</li>
+              <li><ion-icon class="icon-industry" name="settings-outline"></ion-icon> Enhancing supply chain management
+                and efficiency.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="industry">
+          <div class="industry-img">
+            <a href="#">
+              <img src="healthcare1.jpg" alt="Healthcare AI">
+            </a>
+          </div>
+          <div class="industry-content">
+            <span class="industry-no">03</span>
+            <p class="heading-industry">Healthcare</p>
+          </div>
+          <div>
+            <ul class="industry-description">
+              <li><ion-icon class="icon-industry" name="medkit-outline"></ion-icon>In healthcare, AI is used for
+                various
+                purposes, including medical analysis.</li>
+              <li><ion-icon class="icon-industry" name="body-Outline"></ion-icon>Personalized treatment
+                recommendations, virtual health assistants</li>
+              <li><ion-icon class="icon-industry" name="receipt-Outline"></ion-icon>Administrative tasks like scheduling
+                and
+                billing.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="industry">
+          <div class="industry-img">
+            <a href="#">
+              <img src="finance1.jpg" alt="Finance AI">
+            </a>
+          </div>
+          <div class="industry-content">
+            <span class="industry-no">04</span>
+            <p class="heading-industry">Finance</p>
+          </div>
+          <div>
+            <ul class="industry-description">
+              <li><ion-icon class="icon-industry" name="bar-chart-outline"></ion-icon> AI plays a crucial role in the
+                finance sector by powering algorithmic trading.</li>
+              <li><ion-icon class="icon-industry" name="ribbon-outline"></ion-icon>Fraud detection, risk
+                assessment, and personalized financial advice.</li>
+              <li><ion-icon class="icon-industry" name="hardware-chip-outline"></ion-icon>AI algorithms
+                analyze vast amounts of market data to identify patterns.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="industry">
+          <div class="industry-img">
+            <a href="#">
+              <img src="agriculture.jpg" alt="Agriculture AI">
+            </a>
+          </div>
+          <div class="industry-content">
+            <span class="industry-no">05</span>
+            <p class="heading-industry">Agriculture</p>
+          </div>
+          <div>
+            <ul class="industry-description">
+              <li><ion-icon class="icon-industry" name="sunny-outline"></ion-icon> In agriculture, AI is revolutionizing
+                traditional farming
+                practices.</li>
+              <li><ion-icon class="icon-industry" name="hourglass-outline"></ion-icon>AI monitoring by 24/7 in farming
+                crop and pest management.
+              </li>
+              <li><ion-icon class="icon-industry" name="rocket-outline"></ion-icon> AI-powered various data from sources
+                such as satellites, drones and sensors.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="industry">
+          <div class="industry-img technology">
+            <a href="#">
+              <img src="technology.jpg" alt="Technology AI">
+            </a>
+          </div>
+          <div class="industry-content">
+            <span class="industry-no">06</span>
+            <p class="heading-industry">Technology</p>
+          </div>
+          <div>
+            <ul class="industry-description">
+              <li><ion-icon class="icon-industry" name="desktop-outline"></ion-icon> AI is deeply integrated into
+                various aspects of technology.</li>
+              <li><ion-icon class="icon-industry" name="mic-outline"></ion-icon> Speech
+                recognition technologies power virtual assistants.</li>
+              <li><ion-icon class="icon-industry" name="infinite-outline"></ion-icon> Improving
+                human-computer interaction and communication.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="section-sponsered">
+      <div class="contianer">
+        <h3 class="heading-sponsered">Featured by</h3>
+        <div class="spons-logos">
+          <img src="microsoft.png" alt="Sponsered logo" class="spons-logo" />
+          <img src="google.png" alt="Sponsered logo" class="spons-logo" />
+          <img src="tesla.png" alt="Sponsered logo" class="spons-logo" />
+          <img src="intel.png" alt="Sponsered logo" class="spons-logo" />
+          <img src="samsung.png" alt="Sponsered logo" class="spons-logo" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="containerf">
+        <h2 class="heading-secondary mb-about">ABOUT</h2>
+        <div class="grid--4--col">
+          <div class="class-logo">
+            <a href="#" class="footer-logo">
+              <img src="" alt="AI logo" class="ai-logo" />
+            </a>
+
+            <p class="social-icons">
+              <a href="#"><ion-icon class="social-icon" name="logo-whatsapp"></ion-icon></a>
+              <a href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+              <a href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+            </p>
+
+            <p class="copyright">
+              copyright @ Artificial Intelligence(AI), All rights reserved.
+            </p>
+          </div>
+          <!-- <div>
+
+        </div> -->
+          <div class="address-col">
+            <p class="footer-heading">Contuct Us</p>
+
+            <p class="address">Sathrawada, Nagari Mondel, Pincode : 517590</p>
+
+            <p>
+              <a class="footer-link" href="tel:8179403608">8179403608</a>
+              <br>
+              <a class="footer-link"
+                href="mailto:artificialintelligence20k@gmail.com">artificialintelligence20k@gmail.com</a>
+            </p>
+          </div>
+          <div class="company-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">About AI</a></li>
+              <li><a href="#" class="footer-link">For Business</a></li>
+              <li><a href="tel:8179403608" class="footer-link">Contact(From)</a></li>
+              <li><a href="mailto:artificialintelligence20k@gmail.com" class="footer-link">FAQ</a></li>
+              <li><a href="#" class="footer-link">Careers</a></li>
+            </ul>
+          </div>
+          <div class="account-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Create Account</a></li>
+              <li><a href="#" class="footer-link"> sign in</a></li>
+              <li><a href="#" class="footer-link">Log in</a></li>
+              <li><a href="#" class="footer-link">Reset Password</a></li>
+              <li><a href="#" class="footer-link">Update Password</a></li>
+              <li><a href="#" class="footer-link">My Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
